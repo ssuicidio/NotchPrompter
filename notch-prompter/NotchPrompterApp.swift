@@ -13,7 +13,7 @@ struct NotchPrompterApp: App {
 
         MenuBarExtra("NotchPrompter", systemImage: "text.justify") {
             Button {
-                appDelegate.viewModel.play()
+                appDelegate.viewModel.initialPlay()
             }
             label: {
                 Label("Play", systemImage: "play.fill")

@@ -33,7 +33,14 @@ final class PrompterViewModel: ObservableObject {
         startTimer()
     }
     
-    func play() {
+    func initialPlay() {
+        lastTick = nil
+        offset -= speed // a little magic number that helps me avoid "text jumping" effect on "play"
+        isPlaying = true
+    }
+    
+    func playNoOffsetChange() {
+        lastTick = nil
         isPlaying = true
     }
     
@@ -44,10 +51,11 @@ final class PrompterViewModel: ObservableObject {
     func reset() {
         isPlaying = false
         offset = 0
+        lastTick = nil
     }
     
     private func startTimer() {
-        // Use a high-frequency timer for smoothness (display refresh)
+        // Use high frequency timer for smoothness (display refresh)
         timerCancellable = CADisplayLinkPublisher()
             .receive(on: RunLoop.main)
             .sink { [weak self] timestamp in
@@ -57,7 +65,7 @@ final class PrompterViewModel: ObservableObject {
     
     private func tick(current: CFTimeInterval) {
         guard isPlaying else {
-            lastTick = current
+            // Do not advance lastTick while paused; play() will reset it.
             return
         }
         let dt: CFTimeInterval

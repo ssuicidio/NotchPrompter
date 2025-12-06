@@ -24,13 +24,14 @@ struct PrompterView: View {
                 }
                 .clipped()
                 .onChange(of: viewModel.offset) { _, newValue in
-                    // If we've scrolled past the end, loop smoothly
+                
                     if contentHeight > 0, newValue > contentHeight {
-                        viewModel.offset = 0
+                        //we've scrolled past the end
+                        viewModel.offset = 0 // restarts
                     }
                 }
                 .onChange(of: viewModel.text) { _, _ in
-                    // Reset offset when text changes to avoid jump into middle
+                    // reset offset when text changes to avoid jump into middle
                     viewModel.offset = 0
                 }
             }
@@ -43,23 +44,20 @@ struct PrompterView: View {
 
     private func handleHoverChange(hovering: Bool) {
         guard viewModel.pauseOnHover else {
-            // If the feature is off, do nothing and reset tracking flags
             isHovering = false
             wasPlayingBeforeHover = false
             return
         }
 
         if hovering {
-            // Entering hover: remember current playing state and pause
             isHovering = true
             wasPlayingBeforeHover = viewModel.isPlaying
             if viewModel.isPlaying {
-                viewModel.isPlaying = false
+                viewModel.pause()
             }
         } else {
-            // Leaving hover: restore previous playing state if we paused due to hover
             if isHovering, wasPlayingBeforeHover {
-                viewModel.isPlaying = true
+                viewModel.playNoOffsetChange()
             }
             isHovering = false
             wasPlayingBeforeHover = false
