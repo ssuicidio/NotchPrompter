@@ -3,7 +3,6 @@
 A **very basic**, always-on-top floating text prompter for macOS.
 Perfect for quick videos, or keeping important text visible while you work.
 
----
 
 ## Features
 - Always on top
@@ -12,9 +11,8 @@ Perfect for quick videos, or keeping important text visible while you work.
 - Pause on hover
 - Customizable speed and size
 
----
-
 ## Screenshot
+<img width="1303" height="800" alt="SCR-20251206-nrty" src="https://github.com/user-attachments/assets/1c76dfd7-559f-4df1-9cd6-c183b7c538d6" />
 
 
 ## Contributing
