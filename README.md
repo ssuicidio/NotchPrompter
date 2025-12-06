@@ -30,8 +30,7 @@ All contributions are welcome! Whether you're fixing bugs, improving the UI, or 
 
 ## Donating
 
-If you enjoy using NotchPrompter and find it useful, you can support the project! Your donation will **[help me cover the cost of an Apple Developer License](https://github.com/sponsors/jpomykala)**, which is required to publish the app on the Mac App Store. Every contribution, big or small, brings me closer to making NotchPrompter available for everyone directly from the App Store.
-Thank you for your support! 💖
+If you enjoy using NotchPrompter and find it useful, you can support the project. Your donation will **[help me cover the cost of an Apple Developer License](https://github.com/sponsors/jpomykala)**, which is required to publish the app on the Mac App Store. Every contribution, big or small, brings me closer to making NotchPrompter available for everyone directly from the App Store.
 
 ## Roadmap
 - [ ] Activate play/pause on detected audio
