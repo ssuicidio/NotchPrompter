@@ -1,5 +1,6 @@
 
-<img width="128" height="128" alt="Icon-macOS-Default-128x128@1x" src="https://github.com/user-attachments/assets/d728b358-0b0c-4618-820c-c6265ef7d820" />
+
+<img width="128" height="128" alt="notch-promptern-macOS-Default-128x128@2x" src="https://github.com/user-attachments/assets/0eff155d-c2f6-497b-80ce-6eab223935e4" />
 
 # Notch Prompter for macOS
 
