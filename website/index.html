@@ -1,13 +1,136 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NotchPrompter - Professional Teleprompter for macOS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NotchPrompter — Teleprompter for macOS</title>
+  <meta name="description" content="A minimalistic, always-on-top teleprompter for macOS. Perfect for content creators and presenters.">
+</head>
+<body>
+<div class="min-h-screen bg-white">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-gray-100 z-50">
+    <div class="max-w-6xl mx-auto px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center space-x-2">
+          <svg class="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+          </svg>
+          <span class="text-gray-900 text-lg font-semibold">NotchPrompter</span>
+        </div>
+        <a href="https://github.com/jpomykala/NotchPrompter" target="_blank" rel="noopener noreferrer"
+           class="text-sm text-gray-600 hover:text-gray-900 transition">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-16">
+    <!-- Hero Section -->
+    <section class="max-w-4xl mx-auto px-6 lg:px-8 pt-24 pb-16 text-center">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-semibold text-gray-900 mb-6 tracking-tight leading-tight">
+        NotchPrompter<br />for macOS
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+        A minimalistic, always-on-top prompter. Perfect for creating videos or keeping important text visible while you work.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="https://github.com/jpomykala/NotchPrompter/releases/download/1.2/notch-prompter.zip"
+          class="inline-block bg-gray-900 text-white px-8 py-3 rounded-lg font-medium text-base hover:bg-gray-800 transition-colors">
+          Download for macOS
+        </a>
+        <span class="text-sm text-gray-500">Free · macOS 13.0+</span>
+      </div>
+    </section>
+
+    <!-- Screenshot -->
+    <section class="max-w-5xl mx-auto px-6 lg:px-8 py-16">
+      <div class="rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-gray-50">
+        <img src="https://github.com/user-attachments/assets/99670434-e295-45c4-ba7b-a261d6faf943"
+             alt="NotchPrompter screenshot"
+             class="w-full h-auto" />
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="max-w-4xl mx-auto px-6 lg:px-8 py-20">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-16">
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-3">Always on top</h3>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Stays visible above all other windows, so your script is always in view while you work or record.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-3">Voice activation</h3>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Start and control playback with your voice, keeping your hands free for other tasks.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-3">Customizable</h3>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Adjust scrolling speed and text size to match your reading pace perfectly.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold text-gray-900 mb-3">Lightweight</h3>
+          <p class="text-base text-gray-600 leading-relaxed">
+            Minimalist design that stays out of your way. Pause on hover for easy control.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="max-w-4xl mx-auto px-6 lg:px-8 py-20 text-center">
+      <div class="border border-gray-200 rounded-2xl p-12 md:p-16 bg-gray-50">
+        <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
+          Get started
+        </h2>
+        <p class="text-base md:text-lg text-gray-600 mb-8 max-w-xl mx-auto">
+          Download NotchPrompter and start creating better videos today.
+        </p>
+        <a href="https://github.com/jpomykala/NotchPrompter/releases/download/1.2/notch-prompter.zip"
+          class="inline-block bg-gray-900 text-white px-10 py-4 rounded-lg font-medium text-base hover:bg-gray-800 transition-colors">
+          Download for macOS
+        </a>
+        <p class="text-sm text-gray-500 mt-6">
+          Not notarized yet — <a href="https://apple.stackexchange.com/questions/388554/is-a-paid-apple-developer-account-required-for-notarizing-macos-apps" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-700">requires Apple Developer License</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-100 mt-20">
+    <div class="max-w-6xl mx-auto px-6 lg:px-8 py-12">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-sm text-gray-500">
+          &copy; 2025 NotchPrompter. Open source under MIT License.
+        </div>
+        <div class="flex gap-6 text-sm">
+          <a href="https://github.com/jpomykala/NotchPrompter" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition">
+            GitHub
+          </a>
+          <a href="https://github.com/jpomykala/NotchPrompter/releases" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition">
+            Releases
+          </a>
+          <a href="https://github.com/sponsors/jpomykala" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition">
+            Sponsor
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
 </html>
